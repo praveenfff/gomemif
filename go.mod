@@ -1,4 +1,4 @@
-module go.fd.io/govpp/extras
+module github.com/praveenfff/gomemif
 
 go 1.18
 
