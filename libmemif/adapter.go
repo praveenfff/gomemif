@@ -475,7 +475,7 @@ var (
 func init() {
 	log = logger.New()
 	log.Out = os.Stdout
-	log.Level = logger.DebugLevel
+	log.Level = logger.ErrorLevel
 }
 
 // SetLogger changes the logger for Go-libmemif to the provided one.
